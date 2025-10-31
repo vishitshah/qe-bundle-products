@@ -3,11 +3,11 @@
   "steps": [
     {
       "step": "installPlugin",
-      "pluginUrl": "https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip"
+      "pluginZipUrl": "https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip"
     },
     {
       "step": "installPlugin",
-      "pluginUrl": "https://github.com/vishitshah/qe-bundle-products/archive/refs/heads/main.zip"
+      "pluginZipUrl": "https://github.com/vishitshah/qe-bundle-products/archive/refs/heads/main.zip"
     },
     {
       "step": "activatePlugin",

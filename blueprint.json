@@ -1,21 +1,16 @@
 {
-  "landingPage": "/wp-admin/edit.php?post_type=product",
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "steps": [
     {
       "step": "installPlugin",
-      "pluginZipUrl": "https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip"
-    },
-    {
-      "step": "installPlugin",
-      "pluginZipUrl": "https://github.com/vishitshah/qe-bundle-products/archive/refs/heads/main.zip"
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "woocommerce"
+      }
     },
     {
       "step": "activatePlugin",
       "pluginPath": "woocommerce/woocommerce.php"
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "qe-bundle-products-main/qe-bundle-products.php"
     }
   ]
 }

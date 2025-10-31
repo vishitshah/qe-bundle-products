@@ -11,17 +11,6 @@
     {
       "step": "activatePlugin",
       "pluginPath": "woocommerce/woocommerce.php"
-    },
-    {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=vishitshah/qe-bundle-products"
-      }
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "qe-bundle-products/qe-bundle-products.php"
     }
   ]
 }

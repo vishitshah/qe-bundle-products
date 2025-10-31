@@ -1,6 +1,20 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "wp": "6.8"
+  },
   "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "woocommerce"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginSlug": "woocommerce"
+    },
     {
       "step": "installPlugin",
       "pluginData": {

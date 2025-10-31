@@ -1,8 +1,5 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "preferredVersions": {
-    "wp": "6.8"
-  },
   "steps": [
     {
       "step": "installPlugin",
@@ -13,18 +10,18 @@
     },
     {
       "step": "activatePlugin",
-      "pluginSlug": "woocommerce"
+      "pluginPath": "woocommerce/woocommerce.php"
     },
     {
       "step": "installPlugin",
       "pluginData": {
         "resource": "url",
-        "url": "https://cdn.jsdelivr.net/gh/vishitshah/qe-bundle-products@main.zip"
+        "url": "https://github-proxy.com/proxy/?repo=vishitshah/qe-bundle-products"
       }
     },
     {
       "step": "activatePlugin",
-      "pluginPath": "qe-bundle-products-main/qe-bundle-products.php"
+      "pluginPath": "qe-bundle-products/qe-bundle-products.php"
     }
   ]
 }

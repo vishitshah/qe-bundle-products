@@ -17,11 +17,11 @@
     },
     {
       "step": "activatePlugin",
-      "plugin": "woocommerce/woocommerce.php"
+      "pluginPath": "woocommerce/woocommerce.php"
     },
     {
       "step": "activatePlugin",
-      "plugin": "qe-bundle-products-main/qe-bundle-products.php"
+      "pluginPath": "qe-bundle-products-main/qe-bundle-products.php"
     }
   ]
 }

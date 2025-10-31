@@ -4,13 +4,13 @@
     {
       "step": "installPlugin",
       "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "woocommerce"
+        "resource": "url",
+        "url": "https://github.com/vishitshah/qe-bundle-products/archive/refs/heads/main.zip"
       }
     },
     {
       "step": "activatePlugin",
-      "pluginPath": "woocommerce/woocommerce.php"
+      "pluginPath": "qe-bundle-products-main/qe-bundle-products.php"
     }
   ]
 }

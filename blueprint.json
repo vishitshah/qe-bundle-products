@@ -3,19 +3,11 @@
   "steps": [
     {
       "step": "installPlugin",
-      "pluginData": {
-        "resource": "url",
-        "url": "https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip"
-      },
-      "slug": "woocommerce"
+      "pluginUrl": "https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip"
     },
     {
       "step": "installPlugin",
-      "pluginData": {
-        "resource": "url",
-        "url": "https://github.com/vishitshah/qe-bundle-products/archive/refs/heads/main.zip"
-      },
-      "slug": "qe-bundle-products"
+      "pluginUrl": "https://github.com/vishitshah/qe-bundle-products/archive/refs/heads/main.zip"
     },
     {
       "step": "activatePlugin",
@@ -23,7 +15,7 @@
     },
     {
       "step": "activatePlugin",
-      "pluginPath": "qe-bundle-products/qe-bundle-products.php"
+      "pluginPath": "qe-bundle-products-main/qe-bundle-products.php"
     }
   ]
 }

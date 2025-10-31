@@ -1,0 +1,25 @@
+{
+  "landingPage": "/wp-admin/edit.php?post_type=product",
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "url": "https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "url": "https://github.com/<your-username>/<your-repo-name>/archive/refs/heads/main.zip"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "plugin": "woocommerce/woocommerce.php"
+    },
+    {
+      "step": "activatePlugin",
+      "plugin": "<your-repo-name>-main/qe-bundle-products.php"
+    }
+  ]
+}
